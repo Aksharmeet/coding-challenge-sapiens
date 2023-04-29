@@ -1,0 +1,44 @@
+.custom-navbar-toggler{
+    border:none !important;
+    padding: 0;
+    position: absolute !important;
+    top: 00px !important;
+    left:30px !important;
+    transition: all ease-in-out .4s !important;
+    transform: translate(0, 0) rotate(0deg) !important;
+    z-index: 10000 !important;
+  }
+  .navbar-toggler-animate{  
+    transition: all ease-in-out .3s !important;
+    transform: translate(300px, 0) rotate(180deg) !important;
+  }
+  @media screen and (max-width: 680px) {
+    
+  }
+  .custom-navbar-toggler:focus{
+    box-shadow: none !important;
+  }
+  .navbar-toggler-icon{
+    background-image:url('../../assets/arrow-right-circle-fill.svg') !important;
+    padding:0 !important;
+  }
+  .custom-offcanvas {
+    width: 300px  !important;
+    background-color: rgb(52,52,59) !important;
+    z-index: 10000 !important;
+    color: #fff !important;
+  }
+
+  .custom-offcanvas.offcanvas-start{
+    top: 72px !important;
+  } 
+  @media screen and (max-width: 680px) {
+    .custom-offcanvas.offcanvas-start{
+      top: 60px !important;
+    } 
+  }
+  .offcanvas-backdrop{
+  background-color: rgba(0,0,0,0) !important;
+  
+  }
+  

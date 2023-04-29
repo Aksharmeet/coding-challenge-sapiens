@@ -1,0 +1,62 @@
+
+.customTopHstack{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap:20px;
+  }
+@media screen and (max-width: 680px) {
+   .sapienLogo{
+    width: 35px;
+    height: 35px;
+   }
+}
+.sapienText{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255,255,255);
+  }
+.betaText{
+  position: absolute;
+  bottom:0px;
+  right:-25px;
+  display: block;
+  color: rgb(255,255,255);
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 680px) {
+  .sapienText{
+    font-size: 16px;
+  }
+  .betaText{
+    font-size: 12px;
+    right:-20px;
+    bottom:-5px;
+  }
+ 
+}
+.hashTagText{
+  color:#fff;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 680px) {
+    .hashTagText{
+      display: none;
+    }
+}
+
+/* verticalNavCollapse.tsx */
+#offcanvasNavbar-expand-false{
+  width:200px
+}
+
+.customContianer{
+  max-width: 1300px;
+  margin: 0 auto;
+}

@@ -1,0 +1,10 @@
+.search-box{
+    width:400px;
+    border: 2px solid #2c2d35;
+    padding: 3px;
+}
+@media screen and (max-width: 680px) {
+    .search-box{
+        width: 100%;
+    }
+}

@@ -1,0 +1,23 @@
+.modal-lead-container{
+    background-color: #414141;
+    color:#fff;
+}
+.lead-title{
+    font-weight: 800 !important;
+    font-size: 20px;
+}
+.form-label-text{
+    font-weight: 800 !important;
+    font-size: 18px;
+}
+.form-label-text-h{
+    font-weight: 800 !important;
+    font-size: 22px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #7b7b7b;
+    margin-top: 15px
+}
+.form-label-field{
+    margin-left:6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 4px;
+}

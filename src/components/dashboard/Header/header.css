@@ -1,0 +1,29 @@
+p{
+    margin-bottom: 0;
+}
+hr{
+    margin: 10px 0;
+   
+}
+
+.clients-text{
+    font-size: 46px;
+    font-weight: 600;
+    padding:40px 
+}
+@media screen and (max-width: 680px) {
+    .clients-text{
+        font-size: 40px;
+        font-weight: 600;
+        padding:20px 
+    }
+
+    
+}
+
+.header-p-text{
+    font-size: 16px;
+    font-weight: 600;
+    color: #575863;
+    margin-left: 40px;
+}
